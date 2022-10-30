@@ -4,10 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cats</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDEEF0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    max-width: 600px;
+    padding: 16px;
+    background-color: #FFFFFF;
+    margin: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px grey;
+
+}
+.btn{
+    padding: 8px;
+}
+.cat{
+    text-align: center;
+    padding: 2%;
+}
+ol{
+    text-decoration: double;
+    padding: 3%;
+}
+    </style>
 </head>
 <body>
-    <h2 id="author"></h2>
-  <script src="2.js"></script>  
+    <div class="container">
+        <h2>20 удивительных фактов о кошках</h2>
+        <div class="cat">8 августа ежегодно отмечается Всемирный день кошек, учрежденный Международным фондом по защите животных. В честь праздника пушистых любимцев представляем вам несколько занимательных и интересных фактов о них.</div>
+        <div class="card">
+            <img src="assets/cat.jpg" alt="cat" class="img">
+
+        </div>
+        <button class="btn" type="button">Random Cat</button>
+        <ol>
+            <li>Кошки обладают лечебными способностями. В народной медицине даже есть специальная фелинотерапия – метод профилактики и лечения различных заболеваний при помощи контактов с кошками.</li>
+            <li>Считается, что у владельцев кошек на 30% снижается вероятность инфаркта или инсульта.</li>
+            <li>Если кошка находится возле вас и ее хвост дрожит – это наивысшая степень любви, которую она может выразить.</li>
+            <li>Если кошка принесла вам добычу, например мышь, то так она проявляет заботу о вас и хочет вас накормить. Тут важно не ругать кошку за «подарок», а похвалить.</li>
+            <li>Кошки подвергались инквизиции. Папа Иннокентий VIII считал их проводниками между ведьмами и силами зла. Истребив кошек в Европе, люди получили нашествие крыс и эпидемию чумы.</li>
+            <li>Кошка может прыгать на высоту, в 5 раз превышающую ее рост.</li>
+            <li>Кошки являются единственными животными, которым разрешено входить в мечеть.</li>
+            <li>Кошки отлично видят в условиях слабого освещения, но, вопреки распространённому заблуждению, в абсолютной темноте они видеть не могут.</li>
+        </ol>
+    </div>
+   <script src="2.js"></script> 
 </body>
 </html>
